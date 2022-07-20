@@ -45,6 +45,7 @@ function Login() {
             localStorage.setItem("UserId",loginData.data.user._id)
             localStorage.setItem("UserName",loginData.data.user.name)
             localStorage.setItem("UserEmail",loginData.data.user.email)
+            localStorage.setItem("UserState",loginData.data.user.state)
             history.push('/dashboard')
           } catch (error) {
             console.log(error);
