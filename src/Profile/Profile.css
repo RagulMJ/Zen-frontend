@@ -1,0 +1,5 @@
+.body_box{
+    margin: 96px 0 0 72px;
+    width: calc(100vw - 72px);
+    min-height: calc(100vh - 96px);
+}

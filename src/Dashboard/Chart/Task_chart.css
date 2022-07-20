@@ -1,0 +1,44 @@
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+}
+.cards-body-border{
+    background: #fff;
+    border: 1px solid #dedede;
+    width: 600px;
+    box-sizing: border-box;
+    border-radius: 16px;
+}
+.Task-chart-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.Task-chart-topic{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #33028a;
+    padding: 6px;
+}
+.Task-chart-point{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Task-point-1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7e8e9f;
+}
+.Task-point-inner{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
